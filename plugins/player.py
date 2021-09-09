@@ -1323,5 +1323,5 @@ async def not_chat(_, m: Message):
             InlineKeyboardButton('Channel 📢', url='https://t.me/LatestNetflixMovie2021')
         ]
         ]
-    k=await m.reply("<b>You can't use this bot in this group, for that you have to make your own bot from the [Soure Code Ask Owner👈](https://t.me/Aditya1190) below.</b>", disable_web_page_preview=True, reply_markup=InlineKeyboardMarkup(buttons))
+    k=await m.reply("<b>You can't use this bot in this group, for that you have to make your own bot [Soure Code Ask Owner👈](https://t.me/Aditya1190) below.</b>", disable_web_page_preview=True, reply_markup=InlineKeyboardMarkup(buttons))
     await mp.delete(m)
